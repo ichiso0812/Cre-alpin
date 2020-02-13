@@ -4,7 +4,7 @@ body {
 /*INDEX.PHP*/
 #map {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 #content {
   width: 100vw;
@@ -48,4 +48,18 @@ h3 {
 /*puces des listes*/
 li {
   list-style-type: none;
+}
+
+/* HEADER */
+#favourite {
+  width: 35px;
+}
+#share {
+  width: 35px;
+  color: red !important;
+}
+
+/*LEAFLET CHANGES*/
+.leaflet-left {
+  left: 80%;
 }

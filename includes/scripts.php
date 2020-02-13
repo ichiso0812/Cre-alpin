@@ -15,3 +15,6 @@
 <!-- Affichage info  -->
 <script src="assets/js/map/main.js"></script>
 
+<!--SLICK FOR SLIDER-->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
