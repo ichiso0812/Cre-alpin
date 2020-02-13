@@ -1,16 +1,24 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 /*INDEX.PHP*/
 #map {
-    width: 100vw;
-    height: 70vh;
+  width: 100vw;
+  height: 70vh;
 }
 #content {
-    width: 100vw;
-    height: 25vh;
+  width: 100vw;
+  height: 25vh;
 }
 
 p {
-    color: red!important;
+  color: red !important;
+}
+
+/* HEADER */
+#favourite {
+  width: 35px;
+}
+#share {
+  width: 35px;
 }
