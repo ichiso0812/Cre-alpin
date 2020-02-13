@@ -1,5 +1,6 @@
 body {
     max-height: 100vh;
+    margin:0;
 }
 .slide {
     border-radius: 25px;
@@ -21,4 +22,78 @@ body {
     position: relative;
     z-index: 1000;
     top: -6em;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#menu{
+    transition-property: all;
+    transition-duration: 0.7s;
+    min-width: 70%;
+    max-width: 70%;
+    min-height: 100vh;
+    margin-left: -70%;
+}
+#menu.active {
+    margin-left: 0;
+}
+#burger_menu {
+    position: absolute;
+    top: 5%;
+    z-index: 1000;
+    width: 75px;
+    left: 7%;
+    cursor: pointer;
+}
+#menu_header {
+    height: 25%;
+    background-color: #00AFD4;
+    display: flex;
+    align-items: flex-end;
+}
+#menu_header a {
+    margin-bottom: 15%;
+    margin-left: 10%;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+#menu_header_decoration {
+    display: flex;
+    width: 100%;
+}
+
+#menu_header_decoration > div {
+    width: 25%;
+    height:6px;
+}
+#menu_header_decoration > .clear_blue {
+    background-color: #B0DDE7;
+}
+#menu_header_decoration > .blue {
+    background-color: #05D4E5;
+}
+#menu_header_decoration > .yellow {
+    background-color: #FAE601;
+}
+#menu_header_decoration > .brown {
+    background-color: #CCCC33;
+}
+
+#menu_list > li {
+    margin-top: 13%;
+}
+#menu_list a {
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*LEAFLET CHANGES*/
+.leaflet-left {
+    left: 80%;
+    top: 3%;
 }
