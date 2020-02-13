@@ -21,5 +21,5 @@ var displayOptions = {
         document.getElementById(displayOptions.injectTo).innerHTML = point.content;
       }
     }
-  }za
-  feZG
+  }
+  
