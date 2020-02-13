@@ -1,6 +1,4 @@
-body {
-  margin: 0;
-}
+
 /*INDEX.PHP*/
 #map {
   width: 100vw;
@@ -59,7 +57,4 @@ li {
   color: red !important;
 }
 
-/*LEAFLET CHANGES*/
-.leaflet-left {
-  left: 80%;
-}
+
