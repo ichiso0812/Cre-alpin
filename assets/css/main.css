@@ -1,6 +1,3 @@
-body {
-  margin: 0;
-}
 /*INDEX.PHP*/
 #map {
   width: 100vw;
@@ -11,12 +8,10 @@ body {
   height: 25vh;
 }
 
-p {
-  color: #454f63;
-}
 /*Typographie texte courant */
 * {
   font-family: 'Roboto', sans-serif;
+  color: #454f63;
 }
 /*Typographie titres*/
 @font-face {
@@ -33,9 +28,13 @@ p {
 }
 
 /*Attribution des typographies et de la couleur sur les titres*/
-h1,
+h1 {
+  font-family: 'Klavika', bold;
+  color: #454f63;
+}
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Klavika', bold;
   color: #00afd4;
 }
@@ -46,8 +45,9 @@ h3 {
 }
 
 /*puces des listes*/
-li {
+ul {
   list-style-type: none;
+  padding: 0;
 }
 
 /* HEADER */

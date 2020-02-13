@@ -1,0 +1,13 @@
+h1,
+#arrow_left {
+  padding-top: 25px;
+}
+.meteo {
+  width: 50px;
+}
+ul#place_infos {
+  margin-top: 10px;
+}
+.form-check {
+  margin-top: 15px;
+}
