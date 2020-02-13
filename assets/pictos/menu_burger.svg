@@ -1,0 +1,9 @@
+<svg id="menu_burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.13 3.74">
+  <title>menu_burger</title>
+  <rect width="4.13" height="3.74" rx="0.97" style="fill: #00afd4"/>
+  <g>
+    <rect x="0.71" y="0.98" width="1.52" height="0.15" rx="0.07" style="fill: #fff"/>
+    <rect x="0.71" y="1.8" width="2.71" height="0.15" rx="0.07" style="fill: #fff"/>
+    <rect x="1.82" y="2.61" width="1.52" height="0.15" rx="0.07" style="fill: #fff"/>
+  </g>
+</svg>

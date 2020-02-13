@@ -10,9 +10,8 @@
 </head>
     <body>
         <?php include $_SERVER["DOCUMENT_ROOT"] .'/Cre-alpin/includes/header.php';?>
-        <header>
-            pictos svg
-        </header>
+            <!-- Encart à météo à définir ici -->
+            <!-- Fin Encart météo -->
         <div class="container-fluid">
             <h1>Planpraz</h1>
             <!--Encart météo-->
@@ -25,25 +24,42 @@
             </div>
             <!-- MENU-->
             <div class="menu">
-                <ul class="nav">
+                <ul class="nav nav-fill">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
+                        <a class="nav-link active" href="#">Histoire</a>
+                        <!--Dégradé-->
+                        <div class="bandeau">
+                            <div class="bandeau_bleu"></div>
+                            <div class="bandeau_turquoise"></div>
+                            <div class="bandeau_jaune"></div>
+                            <div class="bandeau_vert"></div>
+                        </div>
+                        <!--Fin du dégradé-->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Vidéos</a>
                     </li>
                 </ul>
             </div>
             <!--Contenu--> 
             <!--Gestes malin-->
             <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
-                <div class="card-body">
-                    <h5 class="card-title">Le geste mallin</h5>
-                    <p class="card-text">Attention de ne pas abîmer le sol et la végétation qui bordent les sentiers avec vos bâtons.</p>
-                </div> 
+                <div class="col-md-4">
+                    <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 22">
+                        <title>geste_malin</title>
+                        <path d="M12,5.18,20.63,21H3.37ZM12,1,0,23H24Zm-1,9h2v6H11Zm1,9.75a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,12,19.75Z" transform="translate(0 -1)"/>
+                    </svg>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Le geste malin</h5>
+                        <p class="card-text">Attention de ne pas abîmer le sol et la végétation qui bordent les sentiers avec vos bâtons.</p>
+                    </div> 
+                </div>
             </div>
             <!--Introduction-->
             <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
@@ -65,13 +81,13 @@
             <!--Image-->
             <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
                 <div class="card-body">
-                    <img src="" alt="">
+                    <img src="\Cre-alpin\assets\imgs\pages\planpraz\planpraz.jpg" style="bg-white rounded" alt="Image du plateau de Planpraz">
                 </div>
             </div>
             <!--Description-->
             <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
                 <div class="card-body">
-                    <h5 class="card-title">Description</h5>
+                    <h3 class="card-title">Description</h3>
                     <p class="card-text">Planpraz est relié à Chamonix par l'intermédiaire d'une télécabine.</p>
                     <ul>
                         <li><b>1920 :</b> Ouverture de la télécabine, porté par des pylônes en béton.</li>
@@ -83,53 +99,50 @@
                 </div> 
             </div>
             <!-- Faune et flore -->
-            <!-- Flore// gentiane -->
-            <div class="card mb-3">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="\Cre-alpin\assets\imgs\pages\planpraz\gentiane.jpg" class="card-img" alt="Image d'une fleur bleu qui s'appelle Gentiane">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Gentiane</h5>
-                            <p class="card-text">Genre : Tulipe</p>
-                            <p class="card-text">Famille : Gentianaceae</p>
-                            <a class="" href="#" style="bg-white rounded">En savoir plus</a>
+            <!--Flore-->
+            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <h3 class="card-title">Faune et Flore</h3>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="\Cre-alpin\assets\imgs\pages\planpraz\chamois.jpg" class="img-fluid card-img" alt="Image d'un chamois sur assis sur un rocher">
+                        </div>
+                        <div class="col-6">
+                            <div class="card-body">
+                            <h6 class="card-title">Le Brévent</h6>
+                            <span class="card-text-mueted">Chamonix-Mont-Blanc</span>
+                            <a class="" href="#">En savoir plus</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Faune// chamoix -->
-            <div class="card mb-3">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="\Cre-alpin\assets\imgs\pages\planpraz\chamois.jpg" class="card-img" alt="Image d'un chamois sur assis sur un rocher">
+                <!--Faune-->
+                <div class="row">
+                    <div class="col-6">
+                        <img src="\Cre-alpin\assets\imgs\pages\planpraz\chamois.jpg" class="img-fluid card-img" alt="Image d'un chamois sur assis sur un rocher">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-6">
                         <div class="card-body">
-                            <h5 class="card-title">Chamois</h5>
-                            <p class="card-text">Genre : Rupicapra</p>
-                            <p class="card-text">Famille : Bovidae</p>
-                            <a class="" href="#" style="bg-white rounded">En savoir plus</a>
-                        </div>
+                        <h6 class="card-title">Le Brévent</h6>
+                        <span class="card-text-mueted">Chamonix-Mont-Blanc</span>
+                        <a class="" href="#">En savoir plus</a>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
+            
             <!-- A proximité -->
+            <h3 class="card-title">Faune et Flore</h3>
+            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+                <div class="card-body">
+                    <img src="\Cre-alpin\assets\imgs\pages\planpraz\planpraz.jpg" style="bg-white rounded" alt="Image du plateau de Planpraz">
+                </div>
+            </div>
 
+        
+            
 
-
-
-
-
+            
 
         
 

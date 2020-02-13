@@ -24,6 +24,18 @@ p {
   src: url('../fonts/Klavika-bold.otf') format('OpenType');
 }
 
+/* HEADER PICTO */
+.picto_header {
+  display: flex;
+  justify-content: space-between;
+}
+#add_favourite {
+  width: 35px;
+}
+#share {
+  width: 35px;
+}
+
 /*boutons*/
 .bouton {
   background-color: #00afd4;
@@ -48,15 +60,6 @@ h3 {
 /*puces des listes*/
 li {
   list-style-type: none;
-}
-
-/* HEADER */
-#favourite {
-  width: 35px;
-}
-#share {
-  width: 35px;
-  color: red !important;
 }
 
 /*LEAFLET CHANGES*/

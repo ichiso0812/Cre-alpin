@@ -1,1 +1,42 @@
-/* ENCART MÉTÉO */
+/* GENERAL */
+
+/* HEADER PICTO 
+.picto_header {
+  display: flex;
+  justify-content: space-between;
+}
+.picto_droit {
+}
+#add_favourite {
+  width: 35px;
+}
+#share {
+  width: 35px;
+} */
+
+/* Bandeau dégradé */
+.bandeau {
+  width: 100%;
+  display: flex;
+}
+.bandeau > div {
+  width: 25%;
+  height: 6px;
+}
+.bandeau_bleu {
+  background-color: #00afd4;
+}
+.bandeau_turquoise {
+  background-color: #05d4e5;
+}
+.bandeau_jaune {
+  background-color: #fae601;
+}
+.bandeau_vert {
+  background-color: #cccc33;
+}
+
+/* ENCART FAUNE ET FLORE */
+.card-img {
+  width: 100%;
+}
