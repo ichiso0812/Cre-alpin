@@ -9,20 +9,20 @@
 <!--BOOTSTRAP-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <!--MY CSS-->
-<link rel="stylesheet" href="./assets/css/main.css"/>
+<link rel="stylesheet" href="./assets/css/main.css" />
+<!--FONT-->
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 <!--DATABASE CONNECTION-->
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $connection = new mysqli($servername, $username, $password);
-    try {
-        $conn = new PDO("mysql:host=$servername;dbname=crealpin", $username, $password);
-        // set the PDO error mode to exception
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    }
-    catch(PDOException $e)
-    {
-    }
+$servername = "localhost";
+$username = "root";
+$password = "";
+$connection = new mysqli($servername, $username, $password);
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=crealpin", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+}
 ?>

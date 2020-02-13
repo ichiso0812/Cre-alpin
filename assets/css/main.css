@@ -1,16 +1,51 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 /*INDEX.PHP*/
 #map {
-    width: 100vw;
-    height: 70vh;
+  width: 100vw;
+  height: 70vh;
 }
 #content {
-    width: 100vw;
-    height: 25vh;
+  width: 100vw;
+  height: 25vh;
 }
 
 p {
-    color: red!important;
+  color: #454f63;
+}
+/*Typographie texte courant */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+/*Typographie titres*/
+@font-face {
+  font-family: 'Klavika';
+  src: url('../fonts/Klavika-bold.otf') format('OpenType');
+}
+
+/*boutons*/
+.bouton {
+  background-color: #00afd4;
+  padding: 10px 45px 10px 45px;
+  border-radius: 5px;
+  color: white;
+}
+
+/*Attribution des typographies et de la couleur sur les titres*/
+h1,
+h2,
+h3 {
+  font-family: 'Klavika', bold;
+  color: #00afd4;
+}
+
+/*flèche de retour du header */
+#arrow_left {
+  width: 35px;
+}
+
+/*puces des listes*/
+li {
+  list-style-type: none;
 }
