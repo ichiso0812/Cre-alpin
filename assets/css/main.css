@@ -4,7 +4,7 @@ body{
 /*INDEX.PHP*/
 #map {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
 }
 #content {
     width: 100vw;
@@ -13,4 +13,9 @@ body{
 
 p {
     color: red!important;
+}
+
+/*LEAFLET CHANGES*/
+.leaflet-left {
+    left: 80%;
 }
