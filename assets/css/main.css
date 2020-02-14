@@ -24,13 +24,13 @@
   display: flex;
   justify-content: space-between;
 }
-#add_favourite {
-  width: 35px;
-}
-#share {
-  width: 35px;
-}
 
+#arrow_left,
+#add_favourite,
+#share {
+  padding-top: 25px;
+  width: 35px;
+}
 /*boutons*/
 .bouton {
   background-color: #00afd4;
@@ -69,8 +69,4 @@ ul {
 /* HEADER */
 #favourite {
   width: 35px;
-}
-#share {
-  width: 35px;
-  color: red !important;
 }

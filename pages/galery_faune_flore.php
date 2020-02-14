@@ -5,6 +5,7 @@
     <meta desc="">
     <title>Cre'alpin</title>
     <link href="/Cre-alpin/assets/css/galery_faune_flore.css" rel="stylesheet">
+    <link href="/Cre-alpin/assets/css/main.css" rel="stylesheet">
     <!--META, CSS AND DATABASE CON-->
     <?php include $_SERVER["DOCUMENT_ROOT"] . '/Cre-alpin/includes/head.php'; ?>
 

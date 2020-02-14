@@ -1,0 +1,32 @@
+h1 {
+  padding-top: 25px;
+}
+
+/* Bandeau dégradé */
+.bandeau {
+  width: 100%;
+  display: flex;
+}
+.bandeau > div {
+  width: 25%;
+  height: 6px;
+}
+.bandeau_bleu {
+  background-color: #00afd4;
+}
+.bandeau_turquoise {
+  background-color: #05d4e5;
+}
+.bandeau_jaune {
+  background-color: #fae601;
+}
+.bandeau_vert {
+  background-color: #cccc33;
+}
+
+/*IMAGE FLEUR*/
+.gentiane {
+  width: 100%;
+  padding: 17px;
+  border-radius: 25px;
+}

@@ -1,0 +1,21 @@
+.encart_1 {
+  background-color: #b0dde7;
+}
+.encart_2 {
+  background-color: #05d4e5;
+}
+.encart_3 {
+  background-color: #00afd4;
+}
+.encart_1,
+.encart_2,
+.encart_3 {
+  width: 92%;
+  height: 60px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
