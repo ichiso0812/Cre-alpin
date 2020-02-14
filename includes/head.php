@@ -11,7 +11,7 @@
 <!--SLICK FOR SLIDER-->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <!--MY CSS-->
-<link rel="stylesheet" href="./assets/css/main.css" />
+<link rel="stylesheet" href=<?='/Cre-alpin/assets/css/main.css' ?> />
 <!--FONT-->
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 

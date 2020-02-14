@@ -5,15 +5,7 @@
 <!--bootstrap-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<!--MAP-->
-<!--leaflet-->
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-<!-- la liste des points (à retrouver via Google Map par exemple, en inspectant un point sur la carte) -->
-<script src="assets/js/map/point_list.js"></script>
-<!-- l'instance de la map leafleat  -->
-<script src="assets/js/map/map.js"></script>
-<!-- Affichage info  -->
-<script src="assets/js/map/main.js"></script>
+
 
 <!--SLICK FOR SLIDER-->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

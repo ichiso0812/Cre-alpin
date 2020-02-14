@@ -1,29 +1,52 @@
 body {
-    max-height: 100vh;
-    margin:0;
+max-height: 100vh;
+margin:0;
+}
+#map {
+width: 100vw;
+height: 80vh;
+}
+#content {
+width: 100vw;
+height: 25vh;
 }
 .slide {
     border-radius: 25px;
     padding-right: 0.5%;
+    transition-property: all;
+    transition-duration:0.4s;
 }
 .slider img {
     max-height: 8em;
+    min-width:100%;
     max-width: 100%;
     object-fit: none;
     border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .slider_text {
     padding: 10px;
     background-color: #353A50;
+    transition-property: all;
+    transition-duration: 0.7s;
+
     border-radius:0 0 15px 15px;
+}
+.slider_text h2 {
     color: white;
+}
+.slider_text p {
+    color: white; 
+    font-size: 1.1em;
 }
 .slider_container {
     position: relative;
     z-index: 1000;
     top: -6em;
 }
-
+.slick-current .slider_text {
+    background-color: #00AFD4;
+}
 .wrapper {
     display: flex;
     width: 100%;
@@ -32,10 +55,10 @@ body {
 #menu{
     transition-property: all;
     transition-duration: 0.7s;
-    min-width: 70%;
-    max-width: 70%;
-    min-height: 100vh;
-    margin-left: -70%;
+    min-width: 75%;
+    max-width: 75%;
+    min-height: 50vh;
+    margin-left: -75%;
 }
 #menu.active {
     margin-left: 0;
@@ -55,8 +78,8 @@ body {
     align-items: flex-end;
 }
 #menu_header a {
-    margin-bottom: 15%;
-    margin-left: 10%;
+    margin-bottom: 12%;
+    margin-left: 15%;
     color: white;
     font-weight: 600;
     font-size: 1.5em;
@@ -65,7 +88,9 @@ body {
     display: flex;
     width: 100%;
 }
-
+#menu_header a {
+    border-bottom: 1px solid white;
+}
 #menu_header_decoration > div {
     width: 25%;
     height:6px;
@@ -84,14 +109,38 @@ body {
 }
 
 #menu_list > li {
-    margin-top: 13%;
+    margin-top: 12%;
+}
+#menu_list svg {
+    margin-right: 7%;
 }
 #menu_list a {
     color: black;
     cursor: pointer;
     font-size: 18px;
+    margin-left: 10%;
 }
-
+.slider_container, .slick-initialized,  .slick-initialized * {
+    max-height: 250px;
+}
+.slide.slick-slide:not(.slick-current) {  
+    transform: scale(0.88);
+}
+.slick-current {
+    margin-left: 10px;
+}
+#qr_code {
+    position: absolute;
+    top: 57%;
+    left: 78%;
+    z-index: 10001;
+    background-color: #00AFD4;
+    border-radius: 10px;
+    width: 6.5em;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
 /*LEAFLET CHANGES*/
 .leaflet-left {
     left: 80%;
