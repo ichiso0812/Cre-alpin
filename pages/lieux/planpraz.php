@@ -46,7 +46,7 @@
             </div>
             <!--Contenu--> 
             <!--Gestes malin-->
-            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+            <div class="card-deck mb-3 shadow bg-white rounded">
                 <div class="container">
                     <div class="row">
                         <div class="col-2">
@@ -57,7 +57,7 @@
                         </div>
                         <div class="col-10">
                             <div class="card-body">
-                                <h4>Le geste malin</h4>
+                                <h3>Le geste malin</h3>
                                 <p class="card-text">Attention de ne pas abîmer le sol et la végétation qui bordent les sentiers avec vos bâtons.</p>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
             <!--Bouton gestes suivant-->
             
             <!--Introduction-->
-            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+            <div class="card-deck mb-3 shadow bg-white rounded">
                 <div class="card-body">
                     <h3>Introduction</h3>
                     <p class="card-text">Planpraz est un plateau situé à environ 2 000 m d'altitude sur un replat des aiguilles Rouges qui constituent le versant ouest de la vallée de Chamonix.
@@ -84,13 +84,13 @@
                 </div> 
             </div>
             <!--Image-->
-            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+            <div class="card-deck mb-3 shadow bg-white rounded">
                 <div class="card-body">
                     <img src="\Cre-alpin\assets\imgs\pages\planpraz\planpraz.jpg" style="bg-white rounded" class="img-fluid card-img" alt="Image du plateau de Planpraz">
                 </div>
             </div>
             <!--Description-->
-            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+            <div class="card-deck mb-3 shadow bg-white rounded">
                 <div class="card-body">
                     <h3>Description</h3>
                     <p class="card-text">Planpraz est relié à Chamonix par l'intermédiaire d'une télécabine.</p>
@@ -105,7 +105,7 @@
             </div>
             <!-- Faune et flore -->
             <!--Flore-->
-            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+            <div class="card-deck mb-3 shadow bg-white rounded">
                 <div class="card-body">
                     <h3>Faune et Flore</h3>
                 </div>
@@ -117,7 +117,7 @@
                         <div class="col-6">
                             <div class="card-body" style="padding: 0;">
                             <h6 class="card-title"><b>Gentiane</b></h6>
-                            <p class="card-text-mueted">Genre : Tulipe<br>Famille : Gentianaceae<br>
+                            <p class="card-text-mueted">Genre : Tulipe</br>Famille : Gentian<br>
                             <a class="" href="#">En savoir plus</a></p>
                         </div>
                     </div>
@@ -130,14 +130,15 @@
                     <div class="col-6">
                         <div class="card-body" style="padding: 0;">
                         <h6 class="card-title"><b>Chamois</b></h6>
-                        <span class="card-text-mueted">Genre : Rupicapra<br>Famille : Bovidae<br>
+                        <p class="card-text-mueted">Genre : Rupicapra<br>Famille : Bovidae<br>
                         <a class="" href="#" class="link_card">En savoir plus</a></p>
                     </div>
                 </div>
             </div>
+            <!--Fin de l'encart faune et flore-->
             <hr>
             <!-- A proximité -->
-            <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
+            <div class="card-deck mb-3 shadow bg-white rounded">
                 <div class="card-body ">
                     <h3 class="card-title">A proximité</h3>
                 </div>
@@ -169,13 +170,8 @@
                     </div>
                 </div>
             </div>
-        
-            
-
-            
-
-        
-
+            <!--Fin de l'encart à proximité-->
+  
         <?php include $_SERVER["DOCUMENT_ROOT"] .'/Cre-alpin/includes/footer.php';?>
         <?php include $_SERVER["DOCUMENT_ROOT"] .'/Cre-alpin/includes/scripts.php';?>
     </body>
