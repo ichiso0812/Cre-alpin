@@ -3,7 +3,7 @@
 
 <head>
     <meta desc="">
-    <title>Cre'alpin</title>
+    <title>Participation</title>
     <link href="/Cre-alpin/assets/css/main.css" rel="stylesheet">
     <link href="/Cre-alpin/assets/css/participation.css" rel="stylesheet">
     <!--META, CSS AND DATABASE CON-->
@@ -14,11 +14,6 @@
     <?php include $_SERVER["DOCUMENT_ROOT"] . '/Cre-alpin/includes/header.php'; ?>
 
     <div class="container-fluid">
-        <!--Flèche vers la gauche-->
-        <svg id="arrow_left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 15">
-            <title>arrow_left</title>
-            <path d="M2.12,12l7.52,6.23L9,19,0,11.48,9,4l.65.76L2.12,11H24v1Z" transform="translate(0 -4)" style="fill-rule: evenodd" />
-        </svg>
 
         <!--Titre-->
         <h1>Participer</h1>

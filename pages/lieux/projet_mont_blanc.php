@@ -3,7 +3,7 @@
 
 <head>
     <meta desc="">
-    <title>Cre'alpin</title>
+    <title>Projet Mont Blanc</title>
     <link href="/Cre-alpin/assets/css/main.css" rel="stylesheet">
     <link href="/Cre-alpin/assets/css/projet_mont_blanc.css" rel="stylesheet">
     <!--META, CSS AND DATABASE CON-->

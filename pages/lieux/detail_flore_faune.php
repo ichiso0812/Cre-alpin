@@ -3,7 +3,7 @@
 
 <head>
     <meta desc="">
-    <title>Cre'alpin</title>
+    <title>Détails Faune et Flore</title>
     <link href="/Cre-alpin/assets/css/main.css" rel="stylesheet">
     <link href="/Cre-alpin/assets/css/detail_flore_faune.css" rel="stylesheet">
     <!--META, CSS AND DATABASE CON-->
@@ -37,7 +37,7 @@
             </ul>
         </div>
         <div class="row">
-            <img class="gentiane" src="/Cre-alpin/assets/imgs/pages/planpraz/Gentiane-acaule_format_640x376.jpg" alt="gentiane" />
+            <img class="gentiane" src="/Cre-alpin/assets/imgs/pages/planpraz/Gentiane.jpg" alt="gentiane" />
         </div>
         <!--Description-->
         <div class="card-deck mb-3 shadow p-8 mb-5 bg-white rounded">
